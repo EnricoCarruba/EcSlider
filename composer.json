@@ -1,0 +1,24 @@
+{
+"name": "ec/slider",
+"description": "manufacturer logo slider",
+"version": "v1.0.0",
+"license": "MIT",
+"authors": [
+    { "name": "Enrico Carruba"}
+],
+"type": "shopware-platform-plugin",
+"autoload": {
+    "psr-4": { 
+        "Ec\\Slider": "src/"
+    }
+},
+"extra": {
+    "shopware-plugin-class": "Ec\\Slider\\Slider",
+    "copyright": "(c) Enrico Carruba",
+    "label": {
+        "de-DE": "Hersteller Logo Slider Plugin",
+        "en-GB": "Manufacturer logo slider plugin"
+    }
+}
+}
+
